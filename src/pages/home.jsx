@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../component/nav'
 
-function home() {
+function Home() {
   return (
     <div>
         <Nav/>
@@ -9,4 +9,4 @@ function home() {
   )
 }
 
-export default home
+export default Home
