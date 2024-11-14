@@ -2,7 +2,7 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 bg-white" >
       <div className="w-full flex h-fit px-6 space-x-4 bg-blue-400">
         <div className="w-2/3 h-full flex">
           <img
