@@ -1,11 +1,12 @@
 import React from "react";
 import HeroBox from "./HeroBox";
+import { LuArrowBigRight, LuArrowRightCircle } from "react-icons/lu";
 
 function HeroSection() {
   return (
-    <div className="space-y-3 py-4">
+    <div className="space-y-3 py-4 max-w-[1500px] mx-auto">
       <div className="w-full flex h-[500px] px-6 gap-3">
-        <div className="w-2/3 min-h-full flex flex-col rounded-3xl overflow-hidden relative">
+        <div className="w-auto flex-1 min-h-full flex flex-col rounded-3xl overflow-hidden relative">
           <img
             src="./assets/mother.jpg"
             className="w-full h-full object-cover"
@@ -23,7 +24,7 @@ function HeroSection() {
             </button>
           </div>
         </div>
-        <div className="w-1/3 full flex flex-col gap-3">
+        <div className="w-[400px] full flex flex-col gap-3">
           <HeroBox text="Sleek Design" img="./assets/bed2.jpg" position="top" />
           <HeroBox
             text="Comfort That Lasts"
@@ -41,8 +42,9 @@ function HeroSection() {
             Shop now and enjoy unbeatable comfort, delivered straight to your
             door
           </p>
-          <button className="w-fit px-5 py-2.5 bg-white ring-2 ring-black rounded-full text-black font-medium text-sm">
+          <button className="w-fit text-main-color font-medium text-base flex items-center justify-start gap-2">
             Explore Products
+            <LuArrowRightCircle />
           </button>
         </div>
         <div className="w-3/4 h-full relative">
